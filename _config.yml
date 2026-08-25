@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "José Javier"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "José Javier Ortega Gómez"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://Josejavier44.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -22,29 +22,23 @@ repository               : "academicpages/academicpages.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "José Javier Ortega Gómez"
+  avatar           : "profile.png" # Sube una foto tuya a la carpeta /images/ con este nombre
+  bio              : "PhD student in Cosmology. My research focuses on theoretical cosmology, with particular emphasis on the topology of the Universe and the physics of the early universe."
+  location         : "Madrid, Spain"
+  employer         : "Instituto de Física Teórica (IFT-UAM/CSIC) / COMPACT Collaboration"
+  uri              : "https://Josejavier44.github.io"
+  email            : "jjavier.ortega@csic.es"
 
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+# Enlaces a perfiles académicos y redes
+  # (Deja en blanco "" los que no quieras usar o no tengas todavía)
+  twitter          : "" 
+  linkedin         : "https://www.linkedin.com/in/tu-enlace-aqui" # Sustituye con tu URL completa
+  github           : "Josejavier44" 
+  googlescholar    : "" 
+  arxiv            : "" # Añade el enlace a tus preprints cuando los tengas
+  orcid            : "https://orcid.org/0009-0004-4920-5792"
+  inspirehep       : "https://inspirehep.net/authors/3145387" # Muy importante que lo añadas en cuanto tengas tu primer registro
 
 
   # Repositories and software development
@@ -57,7 +51,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
